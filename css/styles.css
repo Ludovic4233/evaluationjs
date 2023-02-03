@@ -1,0 +1,107 @@
+body{
+    border: 1px solid black;
+    min-height: 100vh;
+}
+
+/* header */
+
+header{
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+#btnMenu{
+    width:30px;
+    margin: auto;
+}
+
+nav{
+    border: 1px solid black;
+    width: 60vw;
+    margin: auto;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* main */
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+h2{
+    text-align: center;
+}
+
+section .container{
+    height: 80vh;
+    width: 250px;
+    border: 1px solid black;
+}
+
+/* menu1 */
+#menu1 div table{
+    width: 150px;
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 10px; 
+}
+
+#menu1 div table tr td{
+    
+    border: 1px solid black;
+}
+
+.image{
+    visibility: hidden;
+    margin:auto;
+    margin-top: 20px;
+    display: block;
+}
+
+/* menu4 */
+h3{
+    text-align: center;
+}
+
+/* menu3 */
+#options{
+    border: 1px solid black;
+    width: 100px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#paragraph{
+    text-align: center;
+}
+
+/*menu2*/
+.cssblock{
+    width: 150px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#table tr td{
+    border: 1px solid black;
+}
+

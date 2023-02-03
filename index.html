@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <button id="btnMenu">...</button>
+        <nav>
+            <ul>
+                <li><a class="menuLink" href="#">MENU 1</a></li>
+                <li><a class="menuLink" href="#">MENU 2</a></li>
+                <li><a class="menuLink" href="#">MENU 3</a></li>
+                <li><a class="menuLink" href="#">MENU 4</a></li>
+                <li><a class="menuLink" href="#">MENU 5</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="menu1" class="menu">
+            <h2>MENU 1</h2>
+            <div class="container">
+                <table>
+                    <tr>
+                        <td><a class="tabLink" href="#">link 1</a></td>
+                        <td><a class="tabLink" href="#">link 2</a></td>
+                        <td><a class="tabLink" href="#">link 3</a></td>
+                    </tr>
+                </table>
+                <img class="image" src="images/black.png" alt="image du lien 1">
+                <img class="image" src="images/blue.png" alt="image du lien 2">
+                <img class="image" src="images/green.png" alt="image du lien 3">
+            </div>
+        </section>
+        <section class="menu">
+            <h2>MENU 2</h2>
+            <div class="container">
+                <div class="cssblock">
+                    <div class="cssblock">
+                        <input id="name" type="text" placeholder="nom">
+                    </div>
+                    <div class="cssblock">
+                        <input id="firstname" type="text" placeholder="prénom">
+                    </div>
+                    <div class="cssblock">
+                        <button id="btnTable">ADD</button>
+                    </div>
+                    <div class="cssblock">
+                        <table id="table">
+                            <tr>
+                                <th>table</th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="menu">
+            <h2>MENU 3</h2>
+            <div class="container">
+                <div class="cssblock">
+                    <select id="selectMenu">
+                        <option value="blue">paragraph color blue</option>
+                        <option value="red">paragraph color red</option>
+                        <option value="green">paragraph color green</option>
+                    </select>
+                </div>
+                <h3>paragraph</h3>
+                <p id="paragraph" class="cssblock">Aut accusantium ratione 
+                    eos reprehenderit magnam 
+                    sed architecto deserunt 
+                    deleniti veniam. Qui 
+                    pariatur quasi ut dolor 
+                    dolores a repudiandae 
+                    ipsa est quia quia in 
+                    blanditiis exercitationem 
+                    </p>
+            </div>
+        </section>
+        <section class="menu">
+            <h2>MENU 4</h2>
+            <div id="menu4" class="container">
+                <ul id="Ul" class="cssblock">
+                  <li>value 1</li>
+                  <li>value 4</li>
+                  <li>value 3</li>
+                  <li>value 2</li>  
+                </ul>
+                <div class="cssblock">
+                    <button id="btnUp">UP</button>
+                    <button id="btnDown">DOWN</button>
+                </div>
+            </div>
+        </section>
+        <section class="menu">
+            <h2>MENU 5</h2>
+            <div class="container">
+                <div id="options">
+                    <div>
+                        <input type="checkbox" id="opt1" value="item1" class="option">
+                        <label for="opt1">Option 1</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="opt2" value="item2" class="option">
+                        <label for="opt2">Option 2</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="opt3" value="item3" class="option">
+                        <label for="opt3">Option 3</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="opt4" value="item4" class="option">
+                        <label for="opt4">Option 4</label>
+                    </div>
+                </div>
+                <div class="cssblock">
+                    <input type="radio" name="rad" id="radioDiv">
+                    <label for="radioDiv">div</label>
+                    <input type="radio" name="rad" id="radioOpt">
+                    <label for="radioOpt">opt</label>
+                </div>
+                <div id="divContainer" class="cssblock">
+                    <h3>DIV</h3>
+                    <div id="div">
+                    </div>
+                </div>
+                <div id="selectContainer" class="cssblock">
+                    <select id="select">
+                        
+                    </select>
+                </div>
+            </div>
+        </section>
+    </main>
+        <script src="js/script.js"></script> 
+    </body>
+</html>
